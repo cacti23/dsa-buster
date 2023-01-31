@@ -33,11 +33,10 @@ public:
             }
         }
     }
-
-    // only works for non negative integers
-    // tc -> O(n*m*(n+m))
-    // sc -> O(1)
 };
+// only works for non negative integers
+// tc -> O(n*m*(n+m))
+// sc -> O(1)
 
 
 // Optimised Sol 1:
@@ -67,10 +66,9 @@ public:
             }
         }
     }
-
-    // tc -> O(n*m + n*m) -> O(n*m)
-    // sc -> O(max(n, m))
 };
+// tc -> O(n*m + n*m) -> O(n*m)
+// sc -> O(max(n, m))
 
 
 // Optimised Sol 2:
@@ -112,7 +110,6 @@ public:
             }
         }
     }
-
-    // tc -> O(n*m + n*m) -> O(n*m)
-    // sc -> O(1)
 };
+// tc -> O(n*m + n*m) -> O(n*m)
+// sc -> O(1)
